@@ -3,3 +3,4 @@ venv
 .vscode
 app.db
 logs/
+messages.pot
