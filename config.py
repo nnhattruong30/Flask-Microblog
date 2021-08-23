@@ -16,4 +16,5 @@ class Config(object):
     ADMINS = ['api@api.com']
     
     POSTS_PER_PAGE = 25
-    LANGUAGES = ['en', 'es']
+    LANGUAGES = ['en', 'es', 'vi']
+    MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
